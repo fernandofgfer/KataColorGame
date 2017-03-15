@@ -33,9 +33,8 @@ class GameViewModel: NSObject{
         initValues()
     }
     
-    
+    // Init all arrays and dictionary
     func initValues(){
-        
         
         colorDictionary = ["Red" : WitcColors.colorRed, "Green" : WitcColors.colorGreen, "Yellow" : WitcColors.colorYellow, "Blue" : WitcColors.colorBlue]
         
@@ -55,6 +54,7 @@ class GameViewModel: NSObject{
         setButtonColor()
     }
     
+    // reload all variables
     func realoadBoard(){
         color = Color(color: colorArray[randRange(lower: 0, upper: 3)], literal: literalsArray[randRange(lower: 0, upper: 3)])
         switch level.level {
@@ -67,6 +67,7 @@ class GameViewModel: NSObject{
         }
     }
     
+    // Determine if button pressed is equal that label color
     func buttonPressed(numberOfButton: Int){
         // numberOfMaxibonsToGet < 0 ? 0 : numberOfMaxibonsToGet
         switch numberOfButton {
@@ -83,6 +84,7 @@ class GameViewModel: NSObject{
         }
     }
     
+    //
     func updateScore(result: Bool){
         
         if result == false{
@@ -99,6 +101,7 @@ class GameViewModel: NSObject{
         self.gameProtocol.updateScreen()
     }
     
+    // Change button colors
     func setButtonColor(){
         var index = 0
         for i in getArrayRandom(array: [0,1,2,3]){
@@ -118,12 +121,12 @@ class GameViewModel: NSObject{
         }
     }
     
-    
+    // random int
     func randRange (lower: Int , upper: Int) -> Int {
         return lower + Int(arc4random_uniform(UInt32(upper - lower + 1)))
     }
     
-    
+    // disorder a int array
     func getArrayRandom(array:[Int]) -> [Int]{
         var array = array
         var randomArray: [Int] = []
