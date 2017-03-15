@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED68DFA91E79385C00DDBCFC /* ButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFA81E79385C00DDBCFC /* ButtonTest.swift */; };
+		ED68DFAD1E793C5E00DDBCFC /* ScoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFAC1E793C5E00DDBCFC /* ScoreTest.swift */; };
+		ED68DFAF1E793DF800DDBCFC /* ColorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFAE1E793DF800DDBCFC /* ColorTest.swift */; };
+		ED68DFB11E793FDF00DDBCFC /* LevelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFB01E793FDF00DDBCFC /* LevelTest.swift */; };
 		EDF7962C1E77E68B00B241EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7962B1E77E68B00B241EC /* AppDelegate.swift */; };
 		EDF7962E1E77E68B00B241EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7962D1E77E68B00B241EC /* ViewController.swift */; };
 		EDF796311E77E68C00B241EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF7962F1E77E68C00B241EC /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED68DFA81E79385C00DDBCFC /* ButtonTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTest.swift; sourceTree = "<group>"; };
+		ED68DFAC1E793C5E00DDBCFC /* ScoreTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreTest.swift; sourceTree = "<group>"; };
+		ED68DFAE1E793DF800DDBCFC /* ColorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTest.swift; sourceTree = "<group>"; };
+		ED68DFB01E793FDF00DDBCFC /* LevelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelTest.swift; sourceTree = "<group>"; };
 		EDF796281E77E68B00B241EC /* WhatIsThisColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatIsThisColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF7962B1E77E68B00B241EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDF7962D1E77E68B00B241EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +80,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED68DFA71E79384500DDBCFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED68DFA81E79385C00DDBCFC /* ButtonTest.swift */,
+				ED68DFAC1E793C5E00DDBCFC /* ScoreTest.swift */,
+				ED68DFAE1E793DF800DDBCFC /* ColorTest.swift */,
+				ED68DFB01E793FDF00DDBCFC /* LevelTest.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		EDF7961F1E77E68B00B241EC = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +128,7 @@
 		EDF7963F1E77E68C00B241EC /* WhatIsThisColorTests */ = {
 			isa = PBXGroup;
 			children = (
+				ED68DFA71E79384500DDBCFC /* Model */,
 				EDF796401E77E68C00B241EC /* WhatIsThisColorTests.swift */,
 				EDF796421E77E68C00B241EC /* Info.plist */,
 			);
@@ -274,7 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED68DFAD1E793C5E00DDBCFC /* ScoreTest.swift in Sources */,
+				ED68DFAF1E793DF800DDBCFC /* ColorTest.swift in Sources */,
 				EDF796411E77E68C00B241EC /* WhatIsThisColorTests.swift in Sources */,
+				ED68DFA91E79385C00DDBCFC /* ButtonTest.swift in Sources */,
+				ED68DFB11E793FDF00DDBCFC /* LevelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +500,7 @@
 				EDF796471E77E68C00B241EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDF796481E77E68C00B241EC /* Build configuration list for PBXNativeTarget "WhatIsThisColorTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +509,7 @@
 				EDF7964A1E77E68C00B241EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
