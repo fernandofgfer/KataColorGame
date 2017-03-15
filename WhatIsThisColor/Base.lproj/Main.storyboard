@@ -11,7 +11,7 @@
         <!--Game View Controller-->
         <scene sceneID="36L-mv-W08">
             <objects>
-                <viewController id="oeP-7G-u3A" customClass="GameViewController" customModule="WhatIsThisColor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GameViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oeP-7G-u3A" customClass="GameViewController" customModule="WhatIsThisColor" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="X2k-Ab-E7Q"/>
                         <viewControllerLayoutGuide type="bottom" id="vqw-eB-5Bc"/>

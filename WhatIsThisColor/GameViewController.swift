@@ -22,6 +22,8 @@ class GameViewController: UIViewController, GameProtocol{
     
     var viewModel: GameViewModel!
     
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel = GameViewModel()
