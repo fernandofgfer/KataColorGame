@@ -13,6 +13,7 @@
 		ED68DFB11E793FDF00DDBCFC /* LevelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFB01E793FDF00DDBCFC /* LevelTest.swift */; };
 		ED68DFB51E7947D400DDBCFC /* GameViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFB41E7947D400DDBCFC /* GameViewModelTest.swift */; };
 		ED68DFB71E7961DF00DDBCFC /* GameViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFB61E7961DF00DDBCFC /* GameViewControllerTest.swift */; };
+		ED68DFBF1E79687600DDBCFC /* WhatIsThisColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFBE1E79687600DDBCFC /* WhatIsThisColorUITests.swift */; };
 		EDF7962C1E77E68B00B241EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7962B1E77E68B00B241EC /* AppDelegate.swift */; };
 		EDF7962E1E77E68B00B241EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7962D1E77E68B00B241EC /* ViewController.swift */; };
 		EDF796311E77E68C00B241EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF7962F1E77E68C00B241EC /* Main.storyboard */; };
@@ -30,6 +31,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		ED68DFC11E79687600DDBCFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF796201E77E68B00B241EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF796271E77E68B00B241EC;
+			remoteInfo = WhatIsThisColor;
+		};
 		EDF7963D1E77E68C00B241EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EDF796201E77E68B00B241EC /* Project object */;
@@ -46,6 +54,9 @@
 		ED68DFB01E793FDF00DDBCFC /* LevelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelTest.swift; sourceTree = "<group>"; };
 		ED68DFB41E7947D400DDBCFC /* GameViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewModelTest.swift; sourceTree = "<group>"; };
 		ED68DFB61E7961DF00DDBCFC /* GameViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewControllerTest.swift; sourceTree = "<group>"; };
+		ED68DFBC1E79687600DDBCFC /* WhatIsThisColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatIsThisColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED68DFBE1E79687600DDBCFC /* WhatIsThisColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsThisColorUITests.swift; sourceTree = "<group>"; };
+		ED68DFC01E79687600DDBCFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF796281E77E68B00B241EC /* WhatIsThisColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatIsThisColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF7962B1E77E68B00B241EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDF7962D1E77E68B00B241EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +78,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		ED68DFB91E79687600DDBCFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDF796251E77E68B00B241EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,11 +130,21 @@
 			name = Game;
 			sourceTree = "<group>";
 		};
+		ED68DFBD1E79687600DDBCFC /* WhatIsThisColorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED68DFBE1E79687600DDBCFC /* WhatIsThisColorUITests.swift */,
+				ED68DFC01E79687600DDBCFC /* Info.plist */,
+			);
+			path = WhatIsThisColorUITests;
+			sourceTree = "<group>";
+		};
 		EDF7961F1E77E68B00B241EC = {
 			isa = PBXGroup;
 			children = (
 				EDF7962A1E77E68B00B241EC /* WhatIsThisColor */,
 				EDF7963F1E77E68C00B241EC /* WhatIsThisColorTests */,
+				ED68DFBD1E79687600DDBCFC /* WhatIsThisColorUITests */,
 				EDF796291E77E68B00B241EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +154,7 @@
 			children = (
 				EDF796281E77E68B00B241EC /* WhatIsThisColor.app */,
 				EDF7963C1E77E68C00B241EC /* WhatIsThisColorTests.xctest */,
+				ED68DFBC1E79687600DDBCFC /* WhatIsThisColorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +226,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		ED68DFBB1E79687600DDBCFC /* WhatIsThisColorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED68DFC31E79687600DDBCFC /* Build configuration list for PBXNativeTarget "WhatIsThisColorUITests" */;
+			buildPhases = (
+				ED68DFB81E79687600DDBCFC /* Sources */,
+				ED68DFB91E79687600DDBCFC /* Frameworks */,
+				ED68DFBA1E79687600DDBCFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED68DFC21E79687600DDBCFC /* PBXTargetDependency */,
+			);
+			name = WhatIsThisColorUITests;
+			productName = WhatIsThisColorUITests;
+			productReference = ED68DFBC1E79687600DDBCFC /* WhatIsThisColorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EDF796271E77E68B00B241EC /* WhatIsThisColor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDF796451E77E68C00B241EC /* Build configuration list for PBXNativeTarget "WhatIsThisColor" */;
@@ -242,6 +289,12 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Fernando García Fernández";
 				TargetAttributes = {
+					ED68DFBB1E79687600DDBCFC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZP3J6C7KBY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDF796271E77E68B00B241EC;
+					};
 					EDF796271E77E68B00B241EC = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = ZP3J6C7KBY;
@@ -270,11 +323,19 @@
 			targets = (
 				EDF796271E77E68B00B241EC /* WhatIsThisColor */,
 				EDF7963B1E77E68C00B241EC /* WhatIsThisColorTests */,
+				ED68DFBB1E79687600DDBCFC /* WhatIsThisColorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		ED68DFBA1E79687600DDBCFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDF796261E77E68B00B241EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,6 +356,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		ED68DFB81E79687600DDBCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED68DFBF1E79687600DDBCFC /* WhatIsThisColorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDF796241E77E68B00B241EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,6 +398,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		ED68DFC21E79687600DDBCFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF796271E77E68B00B241EC /* WhatIsThisColor */;
+			targetProxy = ED68DFC11E79687600DDBCFC /* PBXContainerItemProxy */;
+		};
 		EDF7963E1E77E68C00B241EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EDF796271E77E68B00B241EC /* WhatIsThisColor */;
@@ -356,6 +430,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		ED68DFC41E79687600DDBCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZP3J6C7KBY;
+				INFOPLIST_FILE = WhatIsThisColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tecnilogica.WhatIsThisColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WhatIsThisColor;
+			};
+			name = Debug;
+		};
+		ED68DFC51E79687600DDBCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZP3J6C7KBY;
+				INFOPLIST_FILE = WhatIsThisColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tecnilogica.WhatIsThisColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WhatIsThisColor;
+			};
+			name = Release;
+		};
 		EDF796431E77E68C00B241EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -508,6 +608,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		ED68DFC31E79687600DDBCFC /* Build configuration list for PBXNativeTarget "WhatIsThisColorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED68DFC41E79687600DDBCFC /* Debug */,
+				ED68DFC51E79687600DDBCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		EDF796231E77E68B00B241EC /* Build configuration list for PBXProject "WhatIsThisColor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

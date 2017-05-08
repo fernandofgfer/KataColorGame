@@ -23,6 +23,16 @@
                ReferencedContainer = "container:WhatIsThisColor.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ED68DFBB1E79687600DDBCFC"
+               BuildableName = "WhatIsThisColorUITests.xctest"
+               BlueprintName = "WhatIsThisColorUITests"
+               ReferencedContainer = "container:WhatIsThisColor.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
