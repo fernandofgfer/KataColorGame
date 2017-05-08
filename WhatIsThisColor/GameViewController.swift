@@ -58,7 +58,7 @@ class GameViewController: UIViewController, GameProtocol{
         button4.backgroundColor = viewModel.getButton4Color()
         colorLabel.text = viewModel.getLiteralColor()
         colorLabel.textColor = viewModel.getColorColor()
-        scoreLabel.text = "Score: " + String(viewModel.score.points)
+        scoreLabel.text = "Your Score: " + String(viewModel.score.points)
         
     }
     
