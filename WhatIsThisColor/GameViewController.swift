@@ -20,14 +20,14 @@ class GameViewController: UIViewController, GameProtocol{
     @IBOutlet var colorLabel: UILabel!
     @IBOutlet var scoreLabel: UILabel!
     
-    var viewModel: GameViewModel!
+    var presenter: GameViewPresenter!
     
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel = GameViewModel()
-        viewModel.gameProtocol = self
+        presenter = GameViewPresenter()
+        presenter.view = self
         loadButtons()
     }
     
@@ -52,29 +52,29 @@ class GameViewController: UIViewController, GameProtocol{
     
 
     func updateScreen() {
-        button1.backgroundColor = viewModel.getButton1Color()
-        button2.backgroundColor = viewModel.getButton2Color()
-        button3.backgroundColor = viewModel.getButton3Color()
-        button4.backgroundColor = viewModel.getButton4Color()
-        colorLabel.text = viewModel.getLiteralColor()
-        colorLabel.textColor = viewModel.getColorColor()
-        scoreLabel.text = "Your Score: " + String(viewModel.score.points)
+        button1.backgroundColor = presenter.getButton1Color()
+        button2.backgroundColor = presenter.getButton2Color()
+        button3.backgroundColor = presenter.getButton3Color()
+        button4.backgroundColor = presenter.getButton4Color()
+        colorLabel.text = presenter.getLiteralColor()
+        colorLabel.textColor = presenter.getColorColor()
+        scoreLabel.text = "Your Score: " + String(presenter.score.points)
         
     }
     
     //MARK: Actions
     
     @IBAction func button1Action(_ sender: Any) {
-        viewModel.buttonPressed(numberOfButton: 0)
+        presenter.buttonPressed(numberOfButton: 0)
     }
     @IBAction func button2Action(_ sender: Any) {
-        viewModel.buttonPressed(numberOfButton: 1)
+        presenter.buttonPressed(numberOfButton: 1)
     }
     @IBAction func button3Action(_ sender: Any) {
-        viewModel.buttonPressed(numberOfButton: 2)
+        presenter.buttonPressed(numberOfButton: 2)
     }
     @IBAction func button4Action(_ sender: Any) {
-        viewModel.buttonPressed(numberOfButton: 3)
+        presenter.buttonPressed(numberOfButton: 3)
     }
     
 }

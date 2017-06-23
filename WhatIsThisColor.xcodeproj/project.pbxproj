@@ -11,7 +11,7 @@
 		ED68DFAD1E793C5E00DDBCFC /* ScoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFAC1E793C5E00DDBCFC /* ScoreTest.swift */; };
 		ED68DFAF1E793DF800DDBCFC /* ColorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFAE1E793DF800DDBCFC /* ColorTest.swift */; };
 		ED68DFB11E793FDF00DDBCFC /* LevelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFB01E793FDF00DDBCFC /* LevelTest.swift */; };
-		ED68DFB51E7947D400DDBCFC /* GameViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFB41E7947D400DDBCFC /* GameViewModelTest.swift */; };
+		ED68DFB51E7947D400DDBCFC /* GameViewPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFB41E7947D400DDBCFC /* GameViewPresenterTest.swift */; };
 		ED68DFB71E7961DF00DDBCFC /* GameViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFB61E7961DF00DDBCFC /* GameViewControllerTest.swift */; };
 		ED68DFBF1E79687600DDBCFC /* WhatIsThisColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68DFBE1E79687600DDBCFC /* WhatIsThisColorUITests.swift */; };
 		EDF7962C1E77E68B00B241EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7962B1E77E68B00B241EC /* AppDelegate.swift */; };
@@ -25,7 +25,7 @@
 		EDF796531E77E70A00B241EC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF796521E77E70A00B241EC /* GameViewController.swift */; };
 		EDF796551E77E75E00B241EC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF796541E77E75E00B241EC /* Color.swift */; };
 		EDF796581E77E9D400B241EC /* WitcColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF796571E77E9D400B241EC /* WitcColors.swift */; };
-		EDF7965A1E77FD5800B241EC /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF796591E77FD5800B241EC /* GameViewModel.swift */; };
+		EDF7965A1E77FD5800B241EC /* GameViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF796591E77FD5800B241EC /* GameViewPresenter.swift */; };
 		EDF7965C1E780ACB00B241EC /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7965B1E780ACB00B241EC /* Level.swift */; };
 		EDF7965E1E7847B900B241EC /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7965D1E7847B900B241EC /* GameProtocol.swift */; };
 /* End PBXBuildFile section */
@@ -52,7 +52,7 @@
 		ED68DFAC1E793C5E00DDBCFC /* ScoreTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreTest.swift; sourceTree = "<group>"; };
 		ED68DFAE1E793DF800DDBCFC /* ColorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTest.swift; sourceTree = "<group>"; };
 		ED68DFB01E793FDF00DDBCFC /* LevelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelTest.swift; sourceTree = "<group>"; };
-		ED68DFB41E7947D400DDBCFC /* GameViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewModelTest.swift; sourceTree = "<group>"; };
+		ED68DFB41E7947D400DDBCFC /* GameViewPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewPresenterTest.swift; sourceTree = "<group>"; };
 		ED68DFB61E7961DF00DDBCFC /* GameViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewControllerTest.swift; sourceTree = "<group>"; };
 		ED68DFBC1E79687600DDBCFC /* WhatIsThisColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatIsThisColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED68DFBE1E79687600DDBCFC /* WhatIsThisColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsThisColorUITests.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		EDF796521E77E70A00B241EC /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EDF796541E77E75E00B241EC /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		EDF796571E77E9D400B241EC /* WitcColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WitcColors.swift; sourceTree = "<group>"; };
-		EDF796591E77FD5800B241EC /* GameViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		EDF796591E77FD5800B241EC /* GameViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewPresenter.swift; sourceTree = "<group>"; };
 		EDF7965B1E780ACB00B241EC /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		EDF7965D1E7847B900B241EC /* GameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,7 +124,7 @@
 		ED68DFB31E7947C200DDBCFC /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				ED68DFB41E7947D400DDBCFC /* GameViewModelTest.swift */,
+				ED68DFB41E7947D400DDBCFC /* GameViewPresenterTest.swift */,
 				ED68DFB61E7961DF00DDBCFC /* GameViewControllerTest.swift */,
 			);
 			name = Game;
@@ -209,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				EDF796521E77E70A00B241EC /* GameViewController.swift */,
-				EDF796591E77FD5800B241EC /* GameViewModel.swift */,
+				EDF796591E77FD5800B241EC /* GameViewPresenter.swift */,
 				EDF7965D1E7847B900B241EC /* GameProtocol.swift */,
 			);
 			name = Game;
@@ -374,7 +374,7 @@
 				EDF7964D1E77E6B900B241EC /* Button.swift in Sources */,
 				EDF7965C1E780ACB00B241EC /* Level.swift in Sources */,
 				EDF7964F1E77E6C300B241EC /* Score.swift in Sources */,
-				EDF7965A1E77FD5800B241EC /* GameViewModel.swift in Sources */,
+				EDF7965A1E77FD5800B241EC /* GameViewPresenter.swift in Sources */,
 				EDF7962C1E77E68B00B241EC /* AppDelegate.swift in Sources */,
 				EDF796581E77E9D400B241EC /* WitcColors.swift in Sources */,
 				EDF796551E77E75E00B241EC /* Color.swift in Sources */,
@@ -388,7 +388,7 @@
 				ED68DFB71E7961DF00DDBCFC /* GameViewControllerTest.swift in Sources */,
 				ED68DFAD1E793C5E00DDBCFC /* ScoreTest.swift in Sources */,
 				ED68DFAF1E793DF800DDBCFC /* ColorTest.swift in Sources */,
-				ED68DFB51E7947D400DDBCFC /* GameViewModelTest.swift in Sources */,
+				ED68DFB51E7947D400DDBCFC /* GameViewPresenterTest.swift in Sources */,
 				EDF796411E77E68C00B241EC /* WhatIsThisColorTests.swift in Sources */,
 				ED68DFA91E79385C00DDBCFC /* ButtonTest.swift in Sources */,
 				ED68DFB11E793FDF00DDBCFC /* LevelTest.swift in Sources */,
@@ -615,6 +615,7 @@
 				ED68DFC51E79687600DDBCFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDF796231E77E68B00B241EC /* Build configuration list for PBXProject "WhatIsThisColor" */ = {
 			isa = XCConfigurationList;

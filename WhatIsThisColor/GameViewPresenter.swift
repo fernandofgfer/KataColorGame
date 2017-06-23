@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class GameViewModel: NSObject{
+class GameViewPresenter: NSObject{
     
     var colorDictionary: [String: UIColor]!
     var literalsArray: [String]!
@@ -17,7 +17,7 @@ class GameViewModel: NSObject{
     var backgroundColorArray: [UIColor]!
     
     var firstColorArray: [UIColor]!
-    var gameProtocol: GameProtocol!
+    var view: GameProtocol!
     
     var button1: Button!
     var button2: Button!
@@ -98,7 +98,7 @@ class GameViewModel: NSObject{
             }
         }
         realoadBoard()
-        self.gameProtocol.updateScreen()
+        self.view.updateScreen()
     }
     
     // Change button colors
