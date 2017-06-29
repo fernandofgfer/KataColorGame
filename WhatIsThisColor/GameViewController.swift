@@ -45,7 +45,7 @@ class GameViewController: UIViewController, GameProtocol{
         button4.layer.cornerRadius = 10.0
         button4.layer.masksToBounds = true
         
-        backgroundView.backgroundColor = UIColor.gray
+        backgroundView.backgroundColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
         
         updateScreen()
     }
@@ -58,6 +58,7 @@ class GameViewController: UIViewController, GameProtocol{
         button4.backgroundColor = presenter.getButton4Color()
         colorLabel.text = presenter.getLiteralColor()
         colorLabel.textColor = presenter.getColorColor()
+        //FIXME: Cambiar el acceso a esos datos
         scoreLabel.text = "Your Score: " + String(presenter.score.points)
         
     }
