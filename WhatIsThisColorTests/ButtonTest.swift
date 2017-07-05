@@ -11,52 +11,22 @@ import XCTest
 
 class ButtonTest: XCTestCase {
     
-    var button: Button! = nil
+    // create a var button = nil
     
     override func setUp() {
         super.setUp()
-        
-        button = Button(newColor: UIColor.white)
-        
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // Init a button instance
     }
     
+    //b1
     
-    func testInitNotNilButton(){
-        button = nil
-        button = Button(newColor: UIColor.white)
-        XCTAssertNotNil(button, "The initialization button method works")
-    }
+    //b2
     
+    //b3
     
-    func testInitColorEqualButton(){
-        button = Button(newColor: UIColor.red)
-        XCTAssertEqual(button.color, UIColor.red)
-    }
-    
-    func testInitColorNotEqualButton(){
-        button = Button(newColor: UIColor.red)
-        XCTAssertNotEqual(button.color, UIColor.white)
-    }
-    
-    func testChangeColorEqualButton(){
-        button.changeColor(newColor: UIColor.brown)
-        XCTAssertEqual(button.color, UIColor.brown)
-    }
-    
-    func testChangeColorNotEqualButton(){
-        button.changeColor(newColor: UIColor.brown)
-        XCTAssertNotEqual(button.color, UIColor.orange)
-    }
-
-
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        button = nil
+        // remove a instance
         super.tearDown()
     }
-    
-    
-
     
 }
