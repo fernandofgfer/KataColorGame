@@ -11,40 +11,21 @@ import XCTest
 
 class ColorTest: XCTestCase {
     
-    var color: Color! = nil
+    // create a Color instance = nil
     
     override func setUp() {
         super.setUp()
-        color = Color(color: UIColor.clear, literal: "test")
-        
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // init the color instace
     }
     
-    func testInitNotNillColor(){
-        XCTAssertNotNil(color, "The initialization color method works")
-    }
+    //c1
     
-    func testInitColorColor(){
-        XCTAssertEqual(color.color, UIColor.clear)
-    }
+    //c2
     
-    func testInitLiteralColor(){
-        XCTAssertEqual(color.literal, "test")
-    }
-    
-    func testChangeColorColor(){
-        color.changeColor(color: UIColor.red, literal: "qwerty")
-        XCTAssertEqual(color.color, UIColor.red)
-    }
-    
-    func testChangeLiteralColor(){
-        color.changeColor(color: UIColor.gray, literal: "change")
-        XCTAssertEqual(color.literal, "change")
-    }
+    //c3
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        color = nil
+        // Remove Color instance
         super.tearDown()
     }
     
