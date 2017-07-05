@@ -17,7 +17,7 @@ class GameViewPresenter: NSObject{
     var backgroundColorArray: [UIColor]!
     
     var firstColorArray: [UIColor]!
-    var view: GameProtocol!
+    weak var view: GameProtocol!
     
     var button1: Button!
     var button2: Button!
@@ -28,8 +28,9 @@ class GameViewPresenter: NSObject{
     var score: Score!
     var color: Color!
     
-    override init() {
+    init(view: GameProtocol) {
         super.init()
+        self.view = view
         initValues()
     }
     

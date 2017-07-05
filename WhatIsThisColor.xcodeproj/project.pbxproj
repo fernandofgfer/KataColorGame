@@ -19,7 +19,6 @@
 		EDF796311E77E68C00B241EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF7962F1E77E68C00B241EC /* Main.storyboard */; };
 		EDF796331E77E68C00B241EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF796321E77E68C00B241EC /* Assets.xcassets */; };
 		EDF796361E77E68C00B241EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF796341E77E68C00B241EC /* LaunchScreen.storyboard */; };
-		EDF796411E77E68C00B241EC /* WhatIsThisColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF796401E77E68C00B241EC /* WhatIsThisColorTests.swift */; };
 		EDF7964D1E77E6B900B241EC /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7964C1E77E6B900B241EC /* Button.swift */; };
 		EDF7964F1E77E6C300B241EC /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7964E1E77E6C300B241EC /* Score.swift */; };
 		EDF796531E77E70A00B241EC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF796521E77E70A00B241EC /* GameViewController.swift */; };
@@ -65,7 +64,6 @@
 		EDF796351E77E68C00B241EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDF796371E77E68C00B241EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF7963C1E77E68C00B241EC /* WhatIsThisColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatIsThisColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDF796401E77E68C00B241EC /* WhatIsThisColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsThisColorTests.swift; sourceTree = "<group>"; };
 		EDF796421E77E68C00B241EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF7964C1E77E6B900B241EC /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		EDF7964E1E77E6C300B241EC /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
@@ -180,7 +178,6 @@
 			children = (
 				ED68DFB21E7947BC00DDBCFC /* Modules */,
 				ED68DFA71E79384500DDBCFC /* Model */,
-				EDF796401E77E68C00B241EC /* WhatIsThisColorTests.swift */,
 				EDF796421E77E68C00B241EC /* Info.plist */,
 			);
 			path = WhatIsThisColorTests;
@@ -389,7 +386,6 @@
 				ED68DFAD1E793C5E00DDBCFC /* ScoreTest.swift in Sources */,
 				ED68DFAF1E793DF800DDBCFC /* ColorTest.swift in Sources */,
 				ED68DFB51E7947D400DDBCFC /* GameViewPresenterTest.swift in Sources */,
-				EDF796411E77E68C00B241EC /* WhatIsThisColorTests.swift in Sources */,
 				ED68DFA91E79385C00DDBCFC /* ButtonTest.swift in Sources */,
 				ED68DFB11E793FDF00DDBCFC /* LevelTest.swift in Sources */,
 			);

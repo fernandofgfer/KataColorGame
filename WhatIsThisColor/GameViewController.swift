@@ -26,8 +26,7 @@ class GameViewController: UIViewController, GameProtocol{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter = GameViewPresenter()
-        presenter.view = self
+        presenter = GameViewPresenter(view: self)
         loadButtons()
     }
     

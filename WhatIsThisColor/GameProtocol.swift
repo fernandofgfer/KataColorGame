@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol GameProtocol{
+public protocol GameProtocol: class{
     func updateScreen()
 }
